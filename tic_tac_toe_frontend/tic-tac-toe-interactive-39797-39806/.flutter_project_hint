@@ -1,0 +1,2 @@
+# Path to the Flutter app to analyze/build
+APP_DIR=tic_tac_toe_frontend

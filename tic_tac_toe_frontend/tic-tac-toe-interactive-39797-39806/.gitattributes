@@ -1,0 +1,4 @@
+*.sh eol=lf
+tic_tac_toe_frontend/run_ci.sh eol=lf
+run_flutter.sh eol=lf
+flutter_ci.sh eol=lf

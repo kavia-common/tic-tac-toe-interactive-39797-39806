@@ -1,0 +1,2 @@
+This file marks this directory as the Flutter app root for CI tools.
+Contains pubspec.yaml, lib/main.dart, android/, and assets/ as expected.

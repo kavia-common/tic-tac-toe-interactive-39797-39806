@@ -1,0 +1,2 @@
+This file marks the root of a Flutter project.
+The presence of pubspec.yaml, lib/, android/ and this marker is used by tooling to detect the project root.

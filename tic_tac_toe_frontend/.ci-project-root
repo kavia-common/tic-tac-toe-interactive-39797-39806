@@ -1,0 +1,7 @@
+# CI hint: treat this directory as the Flutter project root for analysis/build.
+# Expected files:
+# - pubspec.yaml
+# - lib/
+# - android/
+# - test/
+# - analysis_options.yaml

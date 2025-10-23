@@ -1,0 +1,5 @@
+# Helper file for CI tooling that scans for Flutter project roots.
+# It indicates where the primary flutter app lives within this workspace.
+flutter_project:
+  path: tic_tac_toe_frontend
+  type: app

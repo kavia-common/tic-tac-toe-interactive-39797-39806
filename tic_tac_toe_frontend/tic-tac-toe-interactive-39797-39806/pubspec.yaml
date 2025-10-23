@@ -1,0 +1,13 @@
+name: tic_tac_toe_workspace
+description: "Workspace containing the Tic Tac Toe Flutter app."
+publish_to: 'none'
+version: 0.0.1
+
+# This is a meta package to help CI identify the Flutter project location.
+environment:
+  sdk: ^3.7.0
+
+flutter:
+  # Hint for CI: the actual app is located in the tic_tac_toe_frontend directory.
+  assets:
+    - tic_tac_toe_frontend/pubspec.yaml

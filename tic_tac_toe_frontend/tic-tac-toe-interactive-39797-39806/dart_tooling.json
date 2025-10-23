@@ -1,0 +1,4 @@
+{
+  "flutter_app_dir": "tic_tac_toe_frontend",
+  "notes": "CI should run Flutter commands inside this directory."
+}

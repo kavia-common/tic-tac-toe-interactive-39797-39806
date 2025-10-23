@@ -1,0 +1,8 @@
+{
+  "flutterSdkVersion": "stable",
+  "flavors": {},
+  "settings": {
+    "project": ".",
+    "ide": "ci"
+  }
+}

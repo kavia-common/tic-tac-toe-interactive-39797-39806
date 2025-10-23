@@ -1,0 +1,5 @@
+# Flutter Android module metadata to help CI root detection
+version:
+  revision: "stable"
+  channel: "stable"
+project_type: app

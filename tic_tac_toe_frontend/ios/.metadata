@@ -1,0 +1,3 @@
+# iOS platform placeholder for Flutter project detection.
+# This placeholder helps CI identify the Flutter project root alongside android/.
+platform: ios

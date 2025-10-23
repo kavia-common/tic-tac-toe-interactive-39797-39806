@@ -1,0 +1,2 @@
+// Placeholder file to aid CI project root detection for Flutter iOS
+FLUTTER_ROOT=.

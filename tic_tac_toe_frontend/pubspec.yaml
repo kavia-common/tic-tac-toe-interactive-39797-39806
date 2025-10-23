@@ -19,4 +19,9 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    # App assets root (kept for any future assets)
     - assets/
+    # GoT-themed marker icons bundled for the board:
+    # - assets/icons/stark_direwolf.png (Player X / House Stark)
+    # - assets/icons/lannister_lion.png (Player O / House Lannister)
+    - assets/icons/

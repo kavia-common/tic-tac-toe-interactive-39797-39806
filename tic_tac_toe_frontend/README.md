@@ -1,16 +1,33 @@
 # tic_tac_toe_frontend
 
-A new Flutter project.
+A simple Tic Tac Toe app with Ocean Professional styling.
 
-## Getting Started
+## GoT-themed markers
+The classic 'X' and 'O' markers are replaced with Game of Thrones-themed icons:
+- Player X → House Stark (direwolf) — tinted with theme.primary (#2563EB)
+- Player O → House Lannister (lion) — tinted with theme.secondary (#F59E0B)
 
-This project is a starting point for a Flutter application.
+Assets live under:
+- `assets/icons/stark_direwolf.png`
+- `assets/icons/lannister_lion.png`
 
-A few resources to get you started if this is your first Flutter project:
+These are bundled via `pubspec.yaml`:
+```yaml
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Animations, hit testing, and accessibility semantics are preserved. The board centers and scales icons responsively.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run locally
+From this directory:
+```bash
+flutter pub get
+flutter run
+```
+
+## Tests
+Widget tests avoid coupling to text markers and assert structural UI (title + status).

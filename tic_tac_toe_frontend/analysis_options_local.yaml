@@ -1,0 +1,7 @@
+# Local analyzer hints (kept minimal). Presence of this file may help certain CI tools detect project root.
+analyzer:
+  exclude:
+    - build/**
+linter:
+  rules:
+    - avoid_print

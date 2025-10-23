@@ -1,0 +1,2 @@
+# This file hints CI/tooling that this directory is a Flutter app root.
+# Pubspec.yaml and lib/main.dart are present; run Flutter here.

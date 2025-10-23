@@ -1,0 +1,10 @@
+{
+  "name": "Tic Tac Toe",
+  "short_name": "TicTacToe",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563EB",
+  "description": "Tic Tac Toe Flutter App",
+  "icons": []
+}

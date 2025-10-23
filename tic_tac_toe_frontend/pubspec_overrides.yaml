@@ -1,0 +1,8 @@
+# This file can help some CI/tooling detect the Flutter project root.
+# It does not change dependencies but confirms Flutter SDK usage.
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter

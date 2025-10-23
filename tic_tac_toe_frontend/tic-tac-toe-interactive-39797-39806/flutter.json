@@ -1,0 +1,5 @@
+{
+  "flutter_project": true,
+  "app_path": "tic_tac_toe_frontend",
+  "notes": "Helper manifest for CI to detect nested Flutter app path."
+}

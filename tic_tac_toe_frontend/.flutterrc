@@ -1,0 +1,7 @@
+project:
+  type: app
+  description: "Tic Tac Toe Flutter application (Ocean Professional theme)"
+  entrypoint: "lib/main.dart"
+  assets:
+    - assets/
+    - assets/icons/
