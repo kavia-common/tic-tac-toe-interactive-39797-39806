@@ -1,18 +1,14 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:tic_tac_toe_frontend/main.dart';
 
 void main() {
-  testWidgets('App generation message displayed', (WidgetTester tester) async {
-    await tester.pumpWidget(const MyApp());
+  testWidgets('renders Tic Tac Toe title and UI basics', (tester) async {
+    await tester.pumpWidget(const TicTacToeApp());
 
-    expect(find.text('tic_tac_toe_frontend App is being generated...'), findsOneWidget);
-    expect(find.byType(CircularProgressIndicator), findsOneWidget);
-  });
+    // AppBar title
+    expect(find.text('Tic Tac Toe'), findsOneWidget);
 
-  testWidgets('App bar has correct title', (WidgetTester tester) async {
-    await tester.pumpWidget(const MyApp());
-
-    expect(find.text('tic_tac_toe_frontend'), findsOneWidget);
+    // Player indicator shows current player
+    expect(find.textContaining("Player"), findsOneWidget);
   });
 }
